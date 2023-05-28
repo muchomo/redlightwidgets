@@ -1,0 +1,781 @@
+.container {
+  padding: 0 2rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+#bottomMenu{
+  width: 100%;
+  display: block;
+  margin-left: 33%;
+}
+.llb{
+  padding-right: 10px;
+  border-color: #000;
+}
+#bMenu{
+  width: 400px;
+  height: 100%;
+  margin-top: 0px;
+  display: inline-block;
+}
+.informacion{
+  text-shadow: #000 6px 0 5px;
+}
+.utilButton {
+  font-weight: bold;
+}
+.bMenuItem{
+  padding-left: 10px;
+  opacity: 1
+}
+.eventDetails{
+  color: black;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+.eventDetailsminor{
+  color: rgb(52, 52, 52);
+  margin-bottom: 8px;
+}
+.bMenuItem1{
+  margin-left: 1px;
+  opacity: 1;
+}
+.bMenuItem:hover, .bMenuItem1:hover {
+  opacity: 1;
+}
+.footer {
+  position: fixed;
+  bottom: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: rgba(0, 0, 0, 0.068);
+}
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description,
+.activity,
+.footer, #walletAddy {
+  text-align: center;
+  color: #fff;
+}
+
+.skewxshake{
+  animation: skew-x-shake 1.3s infinite;
+}
+
+
+.description {
+  color: #fff;
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+.value_grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .value_grid1 {
+    background-color: rgba(239, 253, 37, 0.562);
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid3 {
+    background-color: #edf03400;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid344w {
+    width: 200px;
+    height: 200px;
+    color: #000;
+    background-color: #fff;
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/02/Untitled-design-5.gif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 18px;
+    padding: 20px;
+  }
+  .value_grid344wp {
+    width: 200px;
+    height: 200px;
+    color: #000;
+    background-color: #fff;
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/01/Untitled-design-1.gif');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 18px;
+    padding: 20px;
+  }
+  .value_grid344w2 {
+    width: 100%;
+    height: 300px;
+    color: #000;
+    background-color: #ffffff00;
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/02/9vefinal.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+  .value_grid344w21 {
+    width: 100%;
+    height: 300px;
+    color: #000;
+    background-color: #ffffff00;
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/02/bgkcfinal.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+  .value_grid344w21ww {
+    width: 100%;
+    height: 300px;
+    color: #000;
+    background-color: #ffffff00;
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/02/sbfinal.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:auto;
+  }
+  .value_grid34 {
+    
+    color: #000;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 18px;
+    padding: 20px;
+  }
+  .value_grid2 {
+    background-color: #edf034a5;
+    color: #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+  }
+  .infoc1 { 
+    color: #fff;
+    font-size: x-large;
+    padding: 1.5rem;
+    text-align: center;
+    align-items: center;
+    min-width: 300px;
+    -webkit-text-stroke: .2px black;
+  }
+  .infocard:hover{
+    background-color: #f9f357ba;
+    color: #000;
+    box-shadow: #000;
+    border-color: #000;
+  }
+  .top_p2e_grid {
+    background-image: url('https://cronoballz.com/wp-content/uploads/2022/11/crowd.gif');
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    max-width: 100%;
+    max-height: 25%;
+  }
+  .bottom_p2e_grid {
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .mid_grid {
+  
+  width: 100%;
+  background-size: cover;
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    max-height: 10%;
+  }
+  .mid2_grid {
+  
+    width: 100%;
+    background-size: cover;
+    background-color:#cad84f;
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 100%;
+   height: 65%;
+    }
+  .p2e_grid {
+    color: #000;
+    margin-left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+  }
+  #cashapplogo{
+    margin-left: 200px;
+  }
+  .value_grid19zx {
+    color: #000;
+   
+    background: linear-gradient(0deg, #000, #272727);
+    background-image: url('https://ictnews.org/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_xy_center%2Cq_auto:good%2Cw_768%2Cx_937%2Cy_268/MTk1MDY3MjQ1NDQzOTQ5NzY3/super-bowl-artist-featured-work.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 900px;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid19zx12 {
+    color: #000;
+   
+    background: linear-gradient(0deg, #000, #272727);
+    background-image: url('https://www.sportsbusinessjournal.com/-/media/Sporttechie/2017/02/08/baseball-money.ashx?mw=768');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid19zx:before, .value_grid19zx:after,.value_grid19:before, .value_grid19:after, .value_grid199::before, .value_grid199:after, .value_grid198:before, .value_grid198:after, .value_grid195::before, .value_grid195:after, .value_grid188::before, .value_grid188::after,.value_grid19ty::before,.value_grid19ty::after,.value_grid19zx12::before, .value_grid19zx12::after {
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+      #0000ff, #00ff00,#ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(80% + 4px);
+    height: calc(700px + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+  }
+  
+  @keyframes steam {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .value_grid19zx:after,.value_grid19:after, .value_grid199:after, .value_grid198:after, .value_grid195:after, .value_grid188:after, .value_grid1::after,.value_grid19ty::after, .value_grid19zx12::after {
+    filter: blur(50px);
+  }
+  .value_grid19 {
+    background-image: url('https://wfxg.images.worldnow.com/images/24042835_G.jpeg?');
+    background-position: top;
+    background-size: cover;
+    color: #000;
+    background-repeat: no-repeat;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid19ty {
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/01/49ers-vs-eagles.png');
+    background-position: top;
+    background-size: cover;
+    color: #000;
+    background-repeat: no-repeat;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid188 {
+    background-image: url('https://media.vsstatic.com/image/upload/t_performer_hero_image,g_south,y_0.9/hero/event/sports/1124-nfl-super-bowl/super-bowl-tickets-3.jpg');
+    background-position: top;
+    background-size: cover;
+    color: #000;
+    background-repeat: no-repeat;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid199 {
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/01/cin.png');
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 100%;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+ 
+  .value_grid198 {
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/01/bvbbg.png');
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 700px;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .value_grid195 {
+    background-image: url('https://cronoballz.com/wp-content/uploads/2023/01/svcbg.png');
+    background-position: center;
+    background-size: cover;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 700px;
+    margin-left: 8%;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .nav_grid {
+    
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+  }
+  
+.card { 
+  color: #000;
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+  -webkit-text-stroke: .2px black;
+}
+.cardMaster { 
+  margin: 1rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  width: 100%;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+  -webkit-text-stroke: .2px black;
+}
+#bh{
+  background-color: rgba(20, 20, 19, 0.582);
+}
+.broadcastcard { 
+  color: #000;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  height: 100px;
+  width: 100%;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  padding-bottom: 16px;
+  padding-right: 16px;
+  
+  
+  -webkit-text-stroke: .2px black;
+}
+.infocard { 
+  background: #dfee0970;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  -webkit-text-stroke: .2px black;
+}
+.claim_card { 
+  background: #f9f357;
+  margin: 1rem;
+  padding: 1.5rem;
+  color: #000;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+  -webkit-text-stroke: .2px black;
+}
+.p2e_card { 
+  background: #cad84f;
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: #000;
+  align-items: center;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  
+  width: 100%;
+  height: 100%;
+  -webkit-text-stroke: .2px black;
+}
+.reloadbutton {
+  background-image: url("https://cronoballz.com/wp-content/uploads/2022/10/refresh.png"); 
+  background-color: #00000000;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border:rgb(27, 27, 27);
+  z-index: 400;
+  width: 50px;
+  height: 50px;
+  margin-top: 16px;
+}
+.reloadbutton:hover, .tooltiptext {
+  visibility: visible;
+  filter: drop-shadow(0 0 1.5rem rgb(27, 27, 27));
+  animation: spin 10s linear infinite;
+}
+
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.swingimage{
+  width: auto;
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+  animation: swinging 3.5s ease-in-out forwards infinite;
+}
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+#userChoices{
+  -ms-overflow-style: none;
+}
+.card p {
+  
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  margin-left: 0.5rem;
+  padding-top: 2rem;
+}
+.connect_button {
+  justify-content: flex-end;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  
+}
+.button {
+  height: 50px;
+  width: 150px;
+  display:block;
+  
+}
+
+
+.nav {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  
+  
+}
+.sbs{
+  display: block;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 402px) {
+  .infocard, .value_grid {
+    width: 100%;
+
+  }
+  .h1 {
+    width: 100%;
+    
+  }
+  .description {
+    font-size: 18px;
+  }
+  #bracketsLayout{
+    width: 100%;
+    height: 100px;
+  }
+  #expectedReturnCollection, #providedCollection {
+    margin-right: 0px;
+  }
+ 
+
+ 
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .value_grid1 {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .swingimage{
+    width: 300px;
+  }
+  
+}
+@media (max-width: 901px) {
+  #submitcasts{
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 1000px){
+  #playas{
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .logo {
+    display: none;
+  }
+}
+/* @media (max-width: 820px) {
+  .iframe{
+    display: none;
+  }
+} */
+@keyframes spin { 
+  100% { 
+    transform: rotateZ(360deg);
+  }
+}
+
+@-webkit-keyframes swinging{
+  0%{-webkit-transform: rotate(10deg);}
+  50%{-webkit-transform: rotate(-5deg)}
+  100%{-webkit-transform: rotate(10deg);}
+}
+
+@keyframes swinging{
+  0%{transform: rotate(10deg);}
+  50%{transform: rotate(-5deg)}
+  100%{transform: rotate(10deg);}
+}
+
